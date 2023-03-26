@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+a:active {
+  opacity: 1;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+
+
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color:white; */
+}
+
+/* ******* */
+/* header */
+/* ******* */
+header {
+  background: #eee;
+  padding: 5px 0;
+}
+
+header img {
+  width: 150px;
+  height: 50px;
+  margin-left: -70px;
+
+}
+
+header nav a {
+  margin-left: 45px;
+  color: grey;
+}
+
+/* ******* */
+/* card */
+/* ******* */
+.card-first {
+  line-height: 3.4;
+  height: 250px;
+  display: flex
+}
+
+.card-left {
+  height: 250px;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 120px;
+
+}
+
+.card-left h1 {
+  font-size: 70px;
+}
+
+.card-left p {
+  color: grey;
+}
+
+.card-right {
+  margin-top: 60px;
+  height: 400px;
+  width: 50%;
+
+}
+
+.card-right img {
+  width: 85%;
+  height: 400px;
+}
+
+/* ******* */
+/* blockchain */
+/* ******* */
+.blockchain {
+  width: 100%;
+  height: 100px;
+
+}
+
+.blockchain img {
+  width: 100%;
+  margin-top: 220px;
+}
+
+/* ******* */
+/* Card Section 2 */
+/* ******* */
+.card-provide {
+  border: 1px solid black;
+  margin-top: 500px;
+
+
+
+}
+
+.card-deck {
+  /* width: 30%; */
+  grid-gap: 9px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.card-body {
+  border: 1px solid black;
+
+
+
+}
+
+
+/*****************************************************************************/
+/* about page */
+/**************************************************************************/
+.about-us {
+  width: 100%px;
+  height: 65px;
+  background-color: whitesmoke;
+}
+
+.left12 {
+  float: left;
+  margin-left: 70px;
+}
+
+.right12 {
+  float: right;
+  margin: 10px;
+
+}
+
+.creative-approach {
+  width: 100%;
+  height: 500px;
+  /* align-items: center; */
+}
+
+.creative-approach-part {
+  padding: 60px 40px 00px 40px;
+  width: 90%;
+  height: 300px;
+  margin-left: 65px;
+
+  /* padding: 10px 40px 10px 40px; */
+}
+
+.creative-approach-part h4 {
+  color: grey;
+  line-height: 29px;
+
+}
+
+.btn-success {
+  width: 15%;
+}
+
+.btn-light {
+  width: 15%;
+  border: 1px solid green;
+  background-color: white;
+}
+
+.btn-light {
+  color: green;
+  text-decoration: none;
+}
+
+
+/* ******* */
+/* About Card Section */
+/* ******* */
+.container-about-primary {
+  /* border: 1px solid black; */
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  margin-left: 20%;
+  
+}
+.photo-primary{
+  width: 30%;
+  margin-top: 15px;
+  
+}
+.col-sm-5{
+  border-radius: 10px;
+}
+
+.card-body {
+  /* grid-row: auto; */
+  border: 1px solid black;
+  height: 360px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+
+}
+.card-text{
+  line-height: 2.0;
+  margin-left: 20px;
+  box-shadow: 0 4px 44px rgba(17, 29, 48, 0.06);
+  transition: ease-in-out 0.3s;
+}
+
+/* ******* */
+/* Teamwork section */
+/* ******* */
+
+
+
+
+
+/*****************************************************************************/
+/* footer section */
+/**************************************************************************/
+
+footer {
+  background-color: grey;
+  padding: 20px 0px;
+  height: 400px;
+
+}
+
+.container789 {
+
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  /* border: 1px solid black; */
+
+}
+
+.monday1 {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 30%;
+
+}
